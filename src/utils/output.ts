@@ -1,6 +1,6 @@
 import "colorts/lib/string";
 
-const tag: String = "CGit:".magenta;
+const tag: String = "strom:".magenta;
 
 export const info = (message: String): void => {
   console.log("INFO".bgWhite.black, tag, message);
