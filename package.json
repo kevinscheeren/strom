@@ -1,0 +1,36 @@
+{
+  "name": "@kevinscheeren/strom",
+  "version": "1.0.0",
+  "description": "Git Extension CLI to bootstrap GitFlow.",
+  "main": "build/cli.js",
+  "bin": {
+    "@kevinscheeren/strom": "build/cli.js",
+    "strom": "build/cli.js",
+    "@kevinscheeren/stm": "build/cli.js",
+    "stm": "build/cli.js"
+  },
+  "scripts": {
+    "build": "rimraf ./build && npx tsc && chmod 777 ./build/cli.js"
+  },
+  "repository": "git+https://github.com/kevinscheeren/strom.git",
+  "author": "Kevin Scheeren",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kevinscheeren/strom/issues"
+  },
+  "homepage": "https://github.com/kevinscheeren/strom#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.16",
+    "@types/yargs": "^17.0.8",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "colorts": "^0.1.63",
+    "simple-git": "^3.1.1",
+    "yargs": "^17.3.1"
+  },
+  "files": [
+    "build/"
+  ]
+}
