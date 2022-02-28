@@ -2,7 +2,7 @@
 
 ## Introduction
 
-A CLI distributed through npm to automatically execute GitFlow workflows.
+A CLI distributed through npm to automatically execute GitFlow workflows. You can find the package [here](https://www.npmjs.com/package/@kevinscheeren/strom).
 
 ## GitFlow
 
